@@ -1,4 +1,4 @@
-##Merge the training and the test sets to create one data set.
+#Merge the training and the test sets to create one data set.
 
 #Creating directory
 
@@ -41,7 +41,7 @@ mrg_train <- cbind(y_train,subject_train,x_train)
 mrg_test <- cbind(y_test,subject_test,x_test)
 setAllInOne<-rbind(mrg_train,mrg_test)
 
-##Extract only the measurements on the mean and standard deviation for each measurement.
+#Extract only the measurements on the mean and standard deviation for each measurement.
 
 #Reading column names
 colNames<-colnames(setAllInOne)
